@@ -19,11 +19,22 @@ This implementation uses the [2021-22 NBA Player Stats dataset from NBAstuffer](
 
 ```
 .
-├── main.cpp                    # Main implementation of the bitmap matrix algorithm
-├── database.csv               # Input dataset with NBA player stats
-├── final_Output_bitmap.csv    # Intermediate processed data
-└── output.csv                # Generated output with calculated scores 
+├── README.md                          # Project documentation
+├── src/                              # Source code directory
+│   ├── bitmap.cpp                    # Bitmap matrix implementation
+│   ├── naive.cpp                     # Naive approach implementation
+│   └── ubb.cpp                       # Upper bound based implementation
+├── data/                             # Data directory
+│   ├── database.csv                  # Input NBA player dataset
+│   └── output.csv                    # Intermediate processed data
+├── outputs/                          # Generated outputs directory
+│   ├── final_Output_bitmap.csv       # Results from bitmap algorithm
+│   ├── final_Output_naive.csv        # Results from naive approach
+│   └── final_Output_ubb.csv          # Results from Upper bound based algorithm
+└── LICENSE                           # License file
 ```
+
+
 
 ## 🔧 Dependencies
 
