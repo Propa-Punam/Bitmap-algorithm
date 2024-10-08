@@ -103,5 +103,5 @@ You can modify the code to analyze different aspects of player performance:
 
 ## 📄 License
 
-This project is open-source and available for modification and use in any application. See the LICENSE file for details.
+This project is licensed under the Apache License, Version 2.0, January 2004. You are free to use, modify, and distribute the project, provided you comply with the terms of the license.
 
